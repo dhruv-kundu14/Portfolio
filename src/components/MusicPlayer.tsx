@@ -6,14 +6,12 @@ import { motion, AnimatePresence } from "framer-motion";
 export default function MusicPlayer() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [playing, setPlaying] = useState(false);
-  const [loaded, setLoaded] = useState(false);
   const [showHint, setShowHint] = useState(true);
 
   useEffect(() => {
     const audio = new Audio("/gta4.mp3");
     audio.loop = true;
     audio.volume = 0.35;
-    audio.addEventListener("canplaythrough", () => setLoaded(true));
     audioRef.current = audio;
 
     // Hide the hint after 5 seconds

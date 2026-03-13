@@ -49,7 +49,7 @@ export default function About() {
             With years of building digital products for clients who demand only the finest, I have developed a reputation for precision, discipline, and craft. Every line of code, every pixel, placed with intent.
           </p>
           <p>
-            Whether it's a scalable web application, an immersive interactive experience, or a brand presence that commands respect — I deliver. Quietly. Decisively.
+            Whether it&apos;s a scalable web application, an immersive interactive experience, or a brand presence that commands respect — I deliver. Quietly. Decisively.
           </p>
           <div className="pt-4 flex flex-wrap gap-6 text-xs tracking-[0.3em] uppercase text-zinc-600">
             <span>React.js</span>

@@ -118,7 +118,7 @@ export default function Skills() {
                   Craft &nbsp;·&nbsp; Code &nbsp;·&nbsp; Command
                 </p>
                 <p className="font-serif text-xs italic text-zinc-800 mt-2">
-                  "Omnis ars naturae imitatio est."
+                  &quot;Omnis ars naturae imitatio est.&quot;
                 </p>
               </div>
             </motion.div>
